@@ -1,0 +1,6 @@
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/common_interface.c:40:6:Common_SetMsp	24	static,ignoring_inline_asm
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/common_interface.c:49:6:Common_EnableIrq	4	static,ignoring_inline_asm
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/common_interface.c:58:6:Common_DisableIrq	4	static,ignoring_inline_asm
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/common_interface.c:67:12:Common_GetProtectionStatus	16	static
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/common_interface.c:87:6:Common_SetPostProcessingCallback	16	static
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/common_interface.c:96:6:Common_StartPostProcessing	8	static

@@ -1,0 +1,14 @@
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:63:6:OPENBL_FLASH_Unlock	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:72:6:OPENBL_FLASH_Lock	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:81:6:OPENBL_FLASH_OB_Unlock	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:93:9:OPENBL_FLASH_Read	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:105:6:OPENBL_FLASH_Write	8
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:162:6:OPENBL_FLASH_JumpToAddress	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:187:10:OPENBL_FLASH_GetReadOutProtectionLevel	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:205:6:OPENBL_FLASH_SetReadOutProtectionLevel	2
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:239:13:OPENBL_FLASH_SetWriteProtection	3
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:273:13:OPENBL_FLASH_MassErase	4
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:320:13:OPENBL_FLASH_Erase	6
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:388:13:OPENBL_FLASH_Program	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:404:20:OPENBL_FLASH_EnableWriteProtection	3
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.c:446:20:OPENBL_FLASH_DisableWriteProtection	1

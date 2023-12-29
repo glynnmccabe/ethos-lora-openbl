@@ -1,0 +1,4 @@
+../../../../../../Drivers/CMSIS/Include/core_cm4.h:1933:34:__NVIC_SystemReset	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/optionbytes_interface.c:53:6:OPENBL_OB_Launch	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/optionbytes_interface.c:68:9:OPENBL_OB_Read	1
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/optionbytes_interface.c:80:6:OPENBL_OB_Write	12

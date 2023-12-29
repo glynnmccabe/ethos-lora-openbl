@@ -1,0 +1,6 @@
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Core/openbl_core.c:40:6:OPENBL_Init	16	static
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Core/openbl_core.c:57:6:OPENBL_DeInit	8	static
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Core/openbl_core.c:66:6:OPENBL_InterfacesDeInit	16	static
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Core/openbl_core.c:83:13:OPENBL_RegisterInterface	24	static
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Core/openbl_core.c:106:10:OPENBL_InterfaceDetection	16	static
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Core/openbl_core.c:132:6:OPENBL_CommandProcess	16	static

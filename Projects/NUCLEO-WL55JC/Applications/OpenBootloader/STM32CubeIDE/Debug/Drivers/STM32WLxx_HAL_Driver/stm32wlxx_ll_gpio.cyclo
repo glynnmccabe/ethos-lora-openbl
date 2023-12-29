@@ -1,0 +1,11 @@
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_bus.h:508:22:LL_AHB2_GRP1_ForceReset	1
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_bus.h:527:22:LL_AHB2_GRP1_ReleaseReset	1
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:279:22:LL_GPIO_SetPinMode	3
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:356:22:LL_GPIO_SetPinOutputType	1
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:431:22:LL_GPIO_SetPinSpeed	3
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:510:22:LL_GPIO_SetPinPull	3
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:590:22:LL_GPIO_SetAFPin_0_7	3
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:677:22:LL_GPIO_SetAFPin_8_15	3
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_gpio.c:104:13:LL_GPIO_DeInit	5
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_gpio.c:151:13:LL_GPIO_Init	8
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_gpio.c:231:6:LL_GPIO_StructInit	1
