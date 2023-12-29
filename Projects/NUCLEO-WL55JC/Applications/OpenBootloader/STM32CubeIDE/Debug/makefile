@@ -10,8 +10,8 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Middlewares/Modules/USART/subdir.mk
--include Middlewares/Modules/SPI/subdir.mk
 -include Middlewares/Modules/MEM/subdir.mk
+-include Middlewares/Modules/I2C/subdir.mk
 -include Middlewares/Core/subdir.mk
 -include Drivers/STM32WLxx_HAL_Driver/subdir.mk
 -include Drivers/CMSIS/subdir.mk

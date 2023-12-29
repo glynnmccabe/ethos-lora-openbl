@@ -1,5 +1,5 @@
-Application/OpenBootloader/Target/spi_interface.o: \
- K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/spi_interface.c \
+Application/OpenBootloader/Target/i2c_interface.o: \
+ K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/i2c_interface.c \
  K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/platform.h \
  ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h \
  ../../Core/Inc/stm32wlxx_hal_conf.h \
@@ -41,13 +41,15 @@ Application/OpenBootloader/Target/spi_interface.o: \
  ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/interfaces_conf.h \
  ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_usart.h \
- ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h \
+ ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_i2c.h \
  ../../../../../../Middlewares/ST/OpenBootloader/Core/openbl_core.h \
  ../../OpenBootloader/Target/openbootloader_conf.h \
  ../../OpenBootloader/Target/platform.h \
- ../../../../../../Middlewares/ST/OpenBootloader/Modules/SPI/openbl_spi_cmd.h \
- K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/spi_interface.h \
- K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/iwdg_interface.h
+ ../../../../../../Middlewares/ST/OpenBootloader/Modules/I2C/openbl_i2c_cmd.h \
+ K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/i2c_interface.h \
+ K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/common_interface.h \
+ K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/iwdg_interface.h \
+ K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.h
 K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/platform.h:
 ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h:
 ../../Core/Inc/stm32wlxx_hal_conf.h:
@@ -89,10 +91,12 @@ K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects
 ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/interfaces_conf.h:
 ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_usart.h:
-../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h:
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_i2c.h:
 ../../../../../../Middlewares/ST/OpenBootloader/Core/openbl_core.h:
 ../../OpenBootloader/Target/openbootloader_conf.h:
 ../../OpenBootloader/Target/platform.h:
-../../../../../../Middlewares/ST/OpenBootloader/Modules/SPI/openbl_spi_cmd.h:
-K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/spi_interface.h:
+../../../../../../Middlewares/ST/OpenBootloader/Modules/I2C/openbl_i2c_cmd.h:
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/i2c_interface.h:
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/common_interface.h:
 K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/iwdg_interface.h:
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Projects/NUCLEO-WL55JC/Applications/OpenBootloader/OpenBootloader/Target/flash_interface.h:

@@ -16,7 +16,7 @@ _Min_Stack_Size = 0x400 ; /* required amount of stack */
 /* Memories definition */
 MEMORY
 {
-  ROM    (rx)    : ORIGIN = 0x08000000, LENGTH = 28K   /* Flash memory dedicated to CM4 */
+  ROM    (rx)    : ORIGIN = 0x08000000, LENGTH = 32K   /* Flash memory dedicated to CM4 */
   RAM1   (xrw)   : ORIGIN = 0x20000000, LENGTH = 6K    /* Non-backup SRAM1 dedicated to CM4 */
   RAM2   (xrw)   : ORIGIN = 0x20008000, LENGTH = 6K    /* Backup SRAM2 dedicated to CM4 */
 }

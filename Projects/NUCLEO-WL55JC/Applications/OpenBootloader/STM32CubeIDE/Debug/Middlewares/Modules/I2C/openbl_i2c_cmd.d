@@ -1,5 +1,5 @@
-Middlewares/Modules/SPI/openbl_spi_cmd.o: \
- K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Modules/SPI/openbl_spi_cmd.c \
+Middlewares/Modules/I2C/openbl_i2c_cmd.o: \
+ K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Modules/I2C/openbl_i2c_cmd.c \
  ../../../../../../Middlewares/ST/OpenBootloader/Modules/Mem/openbl_mem.h \
  ../../OpenBootloader/Target/openbootloader_conf.h \
  ../../OpenBootloader/Target/platform.h \
@@ -41,10 +41,11 @@ Middlewares/Modules/SPI/openbl_spi_cmd.o: \
  ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_usart.h \
  ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_usart_ex.h \
  ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
- K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Modules/SPI/openbl_spi_cmd.h \
+ K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Modules/I2C/openbl_i2c_cmd.h \
  ../../../../../../Middlewares/ST/OpenBootloader/Core/openbl_core.h \
  ../../OpenBootloader/App/app_openbootloader.h \
- ../../OpenBootloader/Target/spi_interface.h \
+ ../../OpenBootloader/Target/i2c_interface.h \
+ ../../OpenBootloader/Target/common_interface.h \
  ../../OpenBootloader/Target/common_interface.h
 ../../../../../../Middlewares/ST/OpenBootloader/Modules/Mem/openbl_mem.h:
 ../../OpenBootloader/Target/openbootloader_conf.h:
@@ -87,8 +88,9 @@ Middlewares/Modules/SPI/openbl_spi_cmd.o: \
 ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_usart.h:
 ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_usart_ex.h:
 ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
-K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Modules/SPI/openbl_spi_cmd.h:
+K:/dev/work/object-spectrum/ethos/firmware/examples/stm32wl-openbl-apps/Middlewares/ST/OpenBootloader/Modules/I2C/openbl_i2c_cmd.h:
 ../../../../../../Middlewares/ST/OpenBootloader/Core/openbl_core.h:
 ../../OpenBootloader/App/app_openbootloader.h:
-../../OpenBootloader/Target/spi_interface.h:
+../../OpenBootloader/Target/i2c_interface.h:
+../../OpenBootloader/Target/common_interface.h:
 ../../OpenBootloader/Target/common_interface.h:

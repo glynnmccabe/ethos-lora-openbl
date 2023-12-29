@@ -225,6 +225,11 @@ void OPENBL_FLASH_SetReadOutProtectionLevel(uint32_t Level)
   }
 }
 
+//void OPENBL_Enable_BusyState_Sending(Send_BusyByte_Func pCallback)
+//{
+//
+//}
+
 /**
   * @brief  This function is used to enable or disable write protection of the specified FLASH areas.
   * @param  State Can be one of these values:
@@ -374,6 +379,23 @@ ErrorStatus OPENBL_FLASH_Erase(uint8_t *p_Data, uint32_t DataLength)
   }
 
   return status;
+}
+
+/**
+ * @brief  This function is used to Set Flash busy state variable to activate busy state sending
+ *         during flash operations
+ * @retval None.
+*/
+void OPENBL_Enable_BusyState_Flag(void)
+{
+}
+
+/**
+ * @brief  This function is used to disable the send of busy state in I2C non stretch mode.
+ * @retval None.
+*/
+void OPENBL_Disable_BusyState_Flag(void)
+{
 }
 
 

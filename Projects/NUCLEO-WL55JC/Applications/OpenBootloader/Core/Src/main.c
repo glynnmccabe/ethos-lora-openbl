@@ -139,9 +139,7 @@ void SystemClock_Config(void)
 void System_DeInit(void)
 {
   USARTx_DeInit();
-  SPIx_DeInit();
   HAL_RCC_DeInit();
-  HAL_NVIC_DisableIRQ(SPIx_IRQn);
 }
 
 /**

@@ -20,7 +20,7 @@
 #include "main.h"
 #include "app_openbootloader.h"
 #include "usart_interface.h"
-#include "spi_interface.h"
+#include "i2c_interface.h"
 
 #include "flash_interface.h"
 #include "ram_interface.h"
@@ -32,7 +32,7 @@
 #include "iwdg_interface.h"
 
 #include "openbl_usart_cmd.h"
-#include "openbl_spi_cmd.h"
+#include "openbl_i2c_cmd.h"
 
 #include "openbl_core.h"
 #include "openbl_mem.h"
@@ -42,7 +42,7 @@
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 static OPENBL_HandleTypeDef USART_Handle;
-static OPENBL_HandleTypeDef SPI_Handle;
+static OPENBL_HandleTypeDef I2C_Handle;
 static OPENBL_HandleTypeDef IWDG_Handle;
 
 static OPENBL_OpsTypeDef USART_Ops =
@@ -54,17 +54,14 @@ static OPENBL_OpsTypeDef USART_Ops =
   OPENBL_USART_SendByte
 };
 
-
-static OPENBL_OpsTypeDef SPI_Ops =
+static OPENBL_OpsTypeDef I2C_Ops =
 {
-  OPENBL_SPI_Configuration,
-  OPENBL_SPI_DeInit,
-  OPENBL_SPI_ProtocolDetection,
-  OPENBL_SPI_GetCommandOpcode,
-  OPENBL_SPI_SendAcknowledgeByte
+  OPENBL_I2C_Configuration,
+  NULL,
+  OPENBL_I2C_ProtocolDetection,
+  OPENBL_I2C_GetCommandOpcode,
+  OPENBL_I2C_SendByte,
 };
-
-
 
 
 static OPENBL_OpsTypeDef IWDG_Ops =
@@ -105,11 +102,10 @@ void OpenBootloader_Init(void)
   OPENBL_RegisterInterface(&USART_Handle);
 
 
-  /* Register SPI interfaces */
-  SPI_Handle.p_Ops = &SPI_Ops;
-  SPI_Handle.p_Cmd = OPENBL_SPI_GetCommandsList();
+  I2C_Handle.p_Ops = &I2C_Ops;
+  I2C_Handle.p_Cmd = OPENBL_I2C_GetCommandsList();
 
-  OPENBL_RegisterInterface(&SPI_Handle);
+  OPENBL_RegisterInterface(&I2C_Handle);
 
 
   /* Register IWDG interfaces */

@@ -142,6 +142,11 @@
 			<locationURI>PARENT-5-PROJECT_LOC/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_gpio.c</locationURI>
 		</link>
 		<link>
+			<name>Drivers/STM32WLxx_HAL_Driver/stm32wlxx_ll_i2c.c</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_i2c.c</locationURI>
+		</link>
+		<link>
 			<name>Drivers/STM32WLxx_HAL_Driver/stm32wlxx_ll_rcc.c</name>
 			<type>1</type>
 			<locationURI>PARENT-5-PROJECT_LOC/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_rcc.c</locationURI>
@@ -182,6 +187,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/OpenBootloader/Target/flash_interface.c</locationURI>
 		</link>
 		<link>
+			<name>Application/OpenBootloader/Target/i2c_interface.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/OpenBootloader/Target/i2c_interface.c</locationURI>
+		</link>
+		<link>
 			<name>Application/OpenBootloader/Target/iwdg_interface.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/OpenBootloader/Target/iwdg_interface.c</locationURI>
@@ -202,11 +212,6 @@
 			<locationURI>PARENT-1-PROJECT_LOC/OpenBootloader/Target/ram_interface.c</locationURI>
 		</link>
 		<link>
-			<name>Application/OpenBootloader/Target/spi_interface.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/OpenBootloader/Target/spi_interface.c</locationURI>
-		</link>
-		<link>
 			<name>Application/OpenBootloader/Target/systemmemory_interface.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/OpenBootloader/Target/systemmemory_interface.c</locationURI>
@@ -217,14 +222,19 @@
 			<locationURI>PARENT-1-PROJECT_LOC/OpenBootloader/Target/usart_interface.c</locationURI>
 		</link>
 		<link>
+			<name>Middlewares/Modules/I2C/openbl_i2c_cmd.c</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/OpenBootloader/Modules/I2C/openbl_i2c_cmd.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/Modules/I2C/openbl_i2c_cmd.h</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/OpenBootloader/Modules/I2C/openbl_i2c_cmd.h</locationURI>
+		</link>
+		<link>
 			<name>Middlewares/Modules/MEM/openbl_mem.c</name>
 			<type>1</type>
 			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/OpenBootloader/Modules/Mem/openbl_mem.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/Modules/SPI/openbl_spi_cmd.c</name>
-			<type>1</type>
-			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/OpenBootloader/Modules/SPI/openbl_spi_cmd.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/Modules/USART/openbl_usart_cmd.c</name>

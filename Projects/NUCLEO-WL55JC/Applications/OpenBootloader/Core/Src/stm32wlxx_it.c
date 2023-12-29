@@ -21,7 +21,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32wlxx_it.h"
-#include "spi_interface.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* Private typedef -----------------------------------------------------------*/
@@ -122,11 +121,11 @@ void SysTick_Handler(void)
 /* please refer to the startup file (startup_stm32wlxx.s).                    */
 /******************************************************************************/
 
-/**
- * @brief This function handles SPIx global interrupt.
- */
-void SPI1_IRQHandler(void)
-{
-  OPENBL_SPI_IRQHandler();
-}
+///**
+// * @brief This function handles SPIx global interrupt.
+// */
+//void SPI1_IRQHandler(void)
+//{
+//  OPENBL_SPI_IRQHandler();
+//}
 

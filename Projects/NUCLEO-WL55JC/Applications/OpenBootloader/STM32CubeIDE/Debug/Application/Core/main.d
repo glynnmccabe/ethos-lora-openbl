@@ -41,7 +41,7 @@ Application/Core/main.o: \
  ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  ../../OpenBootloader/Target/interfaces_conf.h \
  ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_usart.h \
- ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h \
+ ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_i2c.h \
  ../../Core/Inc/main.h ../../OpenBootloader/App/app_openbootloader.h \
  ../../../../../../Middlewares/ST/OpenBootloader/Core/openbl_core.h \
  ../../OpenBootloader/Target/openbootloader_conf.h \
@@ -88,7 +88,7 @@ Application/Core/main.o: \
 ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../../OpenBootloader/Target/interfaces_conf.h:
 ../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_usart.h:
-../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h:
+../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_i2c.h:
 ../../Core/Inc/main.h:
 ../../OpenBootloader/App/app_openbootloader.h:
 ../../../../../../Middlewares/ST/OpenBootloader/Core/openbl_core.h:

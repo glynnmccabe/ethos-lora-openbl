@@ -29,7 +29,7 @@ Application/Startup \
 Drivers/CMSIS \
 Drivers/STM32WLxx_HAL_Driver \
 Middlewares/Core \
+Middlewares/Modules/I2C \
 Middlewares/Modules/MEM \
-Middlewares/Modules/SPI \
 Middlewares/Modules/USART \
 
