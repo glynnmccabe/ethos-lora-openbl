@@ -54,6 +54,14 @@ int main(void)
 
   OpenBootloader_Init();
 
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  HAL_GPIO_WritePin(LORA_E5_3V3_EN_PORT, LORA_E5_3V3_EN_PIN, GPIO_PIN_SET);
+
+  GPIO_InitStruct.Pin = LORA_E5_3V3_EN_PIN;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(LORA_E5_3V3_EN_PORT, &GPIO_InitStruct);
+
   /* Infinite loop */
   while (1)
   {

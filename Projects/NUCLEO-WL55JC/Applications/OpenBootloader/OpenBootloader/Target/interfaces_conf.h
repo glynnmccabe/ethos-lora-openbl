@@ -65,4 +65,15 @@ extern "C" {
 #define SPIx_NSS_PIN_PORT                 GPIOA
 #define SPIx_ALTERNATE                    GPIO_AF5_SPI1
 
+// Lora E5 3V3 Enable
+#define LORA_E5_3V3_EN_PIN                GPIO_PIN_9
+#define LORA_E5_3V3_EN_PORT               GPIOA
+
+// I2C
+#define I2Cx_SDA_PIN					  GPIO_PIN_15
+#define I2Cx_SDA_PORT					  GPIOA
+#define I2Cx_SCL_PIN					  GPIO_PIN_15
+#define I2Cx_SCL_PORT					  GPIOB
+#define I2Cx_ALTERNATE					  GPIO_AF4_I2C2
+
 #endif /* INTERFACES_CONF_H */
